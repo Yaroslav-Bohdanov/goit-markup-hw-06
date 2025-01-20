@@ -420,6 +420,13 @@ button {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+.page-footer .container {
+  display: flex;
+  align-items: baseline;
+}
+.container-footer-logo {
+  margin-right: 120px;
+}
 .web-footer {
   display: inline-block;
   font-family: "Raleway", sans-serif;
@@ -451,9 +458,6 @@ button {
   margin-top: 16px;
 }
 .container-footer-svg {
-  display: flex;
-  align-items: baseline;
-  margin-right: 120px;
 }
 .footer-name-svg {
   font-weight: 500;
