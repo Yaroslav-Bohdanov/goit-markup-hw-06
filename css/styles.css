@@ -291,8 +291,7 @@ button {
   border-radius: 0px 0px 4px 4px;
 }
 .container-team {
-  padding-top: 32px;
-  padding-bottom: 0px;
+  padding: 32px 0;
 }
 .team-name {
   font-weight: 500;
@@ -433,5 +432,17 @@ button {
   color: #f4f4fd;
   max-width: 264px;
   margin-top: 16px;
+}
+.container-footer-svg {
+  display: flex;
+  align-items: baseline;
+}
+.footer-name-svg {
+}
+.footer-section-svg {
+}
+.footer-list-svg {
+}
+.footer-svg {
 }
 /* #endregion */
