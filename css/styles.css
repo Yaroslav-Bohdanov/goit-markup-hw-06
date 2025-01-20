@@ -472,7 +472,6 @@ button {
 .footer-list-svg {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-svg {
   fill: #f4f4fd;
@@ -485,11 +484,11 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-icon :hover {
+.footer-social-icon:hover,
+:focus {
   background-color: #31d0aa;
 }
-.footer-social-icon :focus {
-  background-color: #31d0aa;
-}
+
 /* #endregion */
