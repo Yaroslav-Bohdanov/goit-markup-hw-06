@@ -486,8 +486,10 @@ button {
   align-items: center;
   justify-content: center;
 }
-.footer-social-icon :hover,
-:focus {
+.footer-social-icon :hover {
+  background-color: #31d0aa;
+}
+.footer-social-icon :focus {
   background-color: #31d0aa;
 }
 /* #endregion */
