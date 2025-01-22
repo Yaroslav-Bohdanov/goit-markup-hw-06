@@ -709,7 +709,7 @@ border-radius: 4px;
   fill: transparent;
   margin-right: 8px;
 }
-.user-privacy .modal-privacy-text :checked {
+.user-privacy:checked + .modal-privacy-user .modal-privacy-text {
   background-color:#404bbf;
   border: none;
   fill: #F4F4FD;
