@@ -492,6 +492,9 @@ button {
 :focus {
   background-color: #31d0aa;
 }
+.container-footer-email {
+  margin-left: 80px;
+}
 .footer-email-name {
   margin-bottom: 16px;
   font-weight: 500;
