@@ -653,6 +653,9 @@ border-radius: 4px;
   border-color: #4D5AE5;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
+.modal-field-input:focus {
+  border-color: #4D5AE5;
+}
 .modal-field-svg {
   position: absolute;
   left: 16px;
@@ -704,8 +707,9 @@ border-radius: 4px;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
-.modal-privacy-text .user-privacy:checked {
+.user-privacy .modal-privacy-text :checked {
   background-color:#404bbf;
   border: none;
   fill: #F4F4FD;
@@ -714,8 +718,9 @@ border-radius: 4px;
   color: #4d5ae5;
 }
 .modal-form-btn {
-  font-family: "Roboto", sans-serif
+  font-family: "Roboto", sans-serif;
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   font-size: 16px;
