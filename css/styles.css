@@ -169,7 +169,7 @@ button {
   }
 }
 @media (min-width: 1158px) {
-  .addres-link {
+  .adres-link {
     font-size: 16px;
     line-height: 1.5;
     display: inline-block;
@@ -810,19 +810,20 @@ font-style: normal;
 .page-footer .container {
   text-align: center;
 }
-@media (min-width: 768px) and (max-width: 1157px) {
+@media (min-width: 768px)  and (max-width: 1157px) {
   .page-footer .container {
     width: 552px;
     text-align: start;
     display: flex;
     flex-wrap: wrap;
+    align-items: baseline;
   }
 }
-
 @media (min-width: 1158px) {
   .page-footer .container {
     display: flex;
     text-align: start;
+    align-items: baseline;
   }
 }
 .container-footer-logo {
