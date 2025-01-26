@@ -50,6 +50,11 @@
             </li>
           </ul>
         </address>
+        <button class="mobile-btn-open" type="button">
+          <svg class="icon-solid-menu" width="24" height="24" stroke="black">
+            <use href="./images/icons.svg#mobile-btn-open"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -136,7 +141,6 @@
           </ul>
         </div>
       </section>
-      <!--  -->
       <section class="our-team">
         <div class="container">
           <h2 class="team-section">Our Team</h2>
@@ -144,7 +148,8 @@
             <li class="page-team-item">
               <img
                 class="photo-people"
-                src="./images/img.jpg"
+                src="./images/our-team/mark-guerrero-1x.jpg"
+                srcset="./images/our-team/mark-guerrero-2x.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -207,7 +212,8 @@
             <li class="page-team-item">
               <img
                 class="photo-people"
-                src="./images/img(1).jpg"
+                src="./images/our-team/tom-ford-1x.jpg"
+                srcset="./images/our-team/tom-ford-2x.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -270,7 +276,8 @@
             <li class="page-team-item">
               <img
                 class="photo-people"
-                src="./images/img(2).jpg"
+                src="./images/our-team/camila-garcia-1x.jpg"
+                srcset="./images/our-team/camila-garcia-2x.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -333,7 +340,8 @@
             <li class="page-team-item">
               <img
                 class="photo-people"
-                src="./images/img(3).jpg"
+                src="./images/our-team/daniel-wilson-1x.jpg"
+                srcset="./images/our-team/daniel-wilson-2x.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -404,7 +412,9 @@
             <li class="page-portfolio-item">
               <div class="container-page-portfolio">
                 <img
-                  src="./images/bank.jpg"
+                  class="page-portfolio-img"
+                  src="./images/our-portfolio/bank-desktop-1x.jpg"
+                  srcset="./images/our-portfolio/bank-desktop-2x.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -423,7 +433,9 @@
             <li class="page-portfolio-item">
               <div class="container-page-portfolio">
                 <img
-                  src="./images/pay.jpg"
+                  class="page-portfolio-img"
+                  src="./images/our-portfolio/pay-desktop-1x.jpg"
+                  srcset="./images/our-portfolio/pay-desktop-2x.jpg"
                   alt="Cashless Payment"
                   width="360"
                   height="300"
@@ -442,7 +454,9 @@
             <li class="page-portfolio-item">
               <div class="container-page-portfolio">
                 <img
-                  src="./images/laptop.jpg"
+                  class="page-portfolio-img"
+                  src="./images/our-portfolio/meditation-desktop-1x.jpg"
+                  srcset="./images/our-portfolio/meditation-desktop-2x.jpg"
                   alt="Meditation App"
                   width="360"
                   height="300"
@@ -461,7 +475,9 @@
             <li class="page-portfolio-item">
               <div class="container-page-portfolio">
                 <img
-                  src="./images/car.jpg"
+                  class="page-portfolio-img"
+                  src="./images/our-portfolio/taxi-desktop-1x.jpg"
+                  srcset="./images/our-portfolio/taxi-desktop-2x.jpg"
                   alt="Taxi Service"
                   width="360"
                   height="300"
@@ -480,7 +496,9 @@
             <li class="page-portfolio-item">
               <div class="container-page-portfolio">
                 <img
-                  src="./images/phone.jpg"
+                  class="page-portfolio-img"
+                  src="./images/our-portfolio/screen-desktop-1x.jpg"
+                  srcset="./images/our-portfolio/screen-desktop-2x.jpg"
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -500,7 +518,9 @@
             <li class="page-portfolio-item">
               <div class="container-page-portfolio">
                 <img
-                  src="./images/girl.jpg"
+                  class="page-portfolio-img"
+                  src="./images/our-portfolio/courses-desktop-1x.jpg"
+                  srcset="./images/our-portfolio/courses-desktop-2x.jpg"
                   alt="Online Courses"
                   width="360"
                   height="300"
@@ -588,7 +608,7 @@
       </div>
     </footer>
     <!--  -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="btn-close-modal" type="button">
           <svg class="footer-btn-close" width="8" height="8">
@@ -671,6 +691,76 @@
 
           <button class="modal-form-btn" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+    <div class="mobile-menu-container">
+      <div class="mobile-menu-wrapper">
+        <button class="mobile-btn-close" type="button">
+          <svg class="icon-solid-menu-close" width="8" height="8">
+            <use href="./images/icons.svg#mobile-btn-close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu-nav">
+          <li class="mobile-menu-link-lishka">
+            <a
+              class="mobile-menu-nav-link mobile-menu-studio"
+              href="./index.html"
+              >Studio</a
+            >
+          </li>
+          <li class="mobile-menu-link-lishka">
+            <a class="mobile-menu-nav-link" href="">Portfolio</a>
+          </li>
+          <li class="mobile-menu-link-lishka">
+            <a class="mobile-menu-nav-link" href="">Contacts</a>
+          </li>
+        </ul>
+        <address class="mobile-menu-adres">
+          <ul class="mobile-menu-adres-page">
+            <li class="mobile-menu-adres-lishka">
+              <a class="mobile-menu-adres-link-tel" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-menu-adres-lishka">
+              <a
+                class="mobile-menu-adres-link-email"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mobile-menu-list-svg">
+          <li class="mobile-menu-lishka-svg">
+            <a class="mobile-menu-link-svg" href="">
+              <svg class="mobile-menu-svg" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-lishka-svg">
+            <a class="mobile-menu-link-svg" href="">
+              <svg class="mobile-menu-svg" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-lishka-svg">
+            <a class="mobile-menu-link-svg" href="">
+              <svg class="mobile-menu-svg" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-lishka-svg">
+            <a class="mobile-menu-link-svg" href="">
+              <svg class="mobile-menu-svg" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
